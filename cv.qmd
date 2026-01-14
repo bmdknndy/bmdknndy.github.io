@@ -1,0 +1,7 @@
+---
+title: "Curriculum Vitae"
+---
+
+[Download CV as PDF](assets/CVBradyKennedy.pdf)
+
+{{< pdf assets/CVBradyKennedy.pdf width=100% height=800 >}}

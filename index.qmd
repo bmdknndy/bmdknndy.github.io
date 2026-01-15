@@ -2,12 +2,28 @@
 title: "About"
 ---
 
-## Brady Kennedy
+::: hero
+# Brady Kennedy
 
-My name is Brady Kennedy, and I am a researcher and data scientist with a background in econometrics and sociology.
+#### Social Data Science • Housing & Climate Policy • Urban Theory
+:::
 
-[View my CV](cv.qmd)\
-[View my portfolio](portfolio.qmd)
+```{=html}
+<div style="display:flex; gap:2rem; align-items:center; margin-top:2rem;">
+  <img src="images/me.jpg" style="width:40%; border-radius:10px; height:auto;" />
+  <div>
+    <p>
+      Hi! My name is Brady Kennedy, and I am a social data scientist and researcher with a focus on urban political economy, especially around housing and climate.
+    </p>
+    <p>
+      <a href="portfolio.html">View my data science & policy research portfolio</a><br/>
+      <a href="cv.html">View my CV</a><br/>
+      <a href="https://www.linkedin.com/in/brady-kennedy-/">View my LinkedIn profile</a><br/>
+      <a href="https://github.com/bmdknndy">View my GitHub repos</a>
+    </p>
+  </div>
+</div>
+```
 
 My main quantitative tools are R, SQL, and QGIS, but I am trained in Python and have more recently worked in qualitative and mixed-method research settings.
 

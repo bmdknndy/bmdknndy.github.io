@@ -41,13 +41,19 @@ title: "Professional Portfolio"
 
 ------------------------------------------------------------------------
 
-## Business Finance Data Analytics: Shaping Decision Making Through KPI Precision & Clarity
+## Business & Finance Data Analytics
 
 ### KPI Dashboard For Fence Contractor Company
 
 [View the KPI Dashboard (Quarto Site Link)](https://bmdknndy.github.io/KPI-Dashboard-FenceCo/)
 
 -   Created KPI dashboard using R and Tableau to track sales conversions, job profitability, sales by geographic area and product type, lead times, customer acquisition costs, and cash flow. Tailored to management needs and preferences to concisely communicate necessary info on business health.
+
+### Ecommerce & Payment Platform Fraud Analytics Workflow
+
+[View the analysis (Quarto Site Link)](https://bmdknndy.github.io/TransactionFraudRiskAnalytics/)
+
+-   Uses R & SQL to show how payment platforms and ecommerce businesses can use transaction-level data to balance approval rates and loss exposure when dealing with disputed transactions.
 
 ------------------------------------------------------------------------
 

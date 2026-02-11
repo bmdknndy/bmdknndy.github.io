@@ -2,29 +2,6 @@
 title: "Professional Portfolio"
 ---
 
-## Climate Policy
-
-### Understanding The Relationship Between Homeownership and Support for Clean Energy Policies Using CES Survey Data
-
-[View the analysis (Quarto Site Link)](https://bmdknndy.github.io/HomeOwnershipClimatePolicySupport/brief/brief.html)
-
--   Using nationally representative survey data from the 2024 Cooperative Election Study (CES) analyzed via **Python** and **SQL**, I show that homeownership is associated with lower support for clean energy policies even after accounting for political orientation and standard socioeconomic controls. This pattern suggests that climate attitudes may reflect not only ideology, but also individuals’ positions within housing and asset structures that shape exposure to regulation and perceived costs.
-
-
-### Promoting Building Decarbonization In Practice
-
-[Read the policy memo (PDF)](assets/CoBMemo.pdf)
-
--   3-page policy memo that draws on my published social science research (see below) on the co-benefits of building decarbonization to present policy implications for city and state policymakers
-
-### Satisficing Devices: Co-benefits in practice to decarbonize New York City's residential buildings
-
-[Read the peer-reviewed article (DOI Link)](https://doi.org/10.1016/j.erss.2025.104512)
-
--   Draws on 58 interviews and ethnographic work with NY based building sector stakeholders to understand conceptions of value around building decarbonization and decision making around compliance with local decarbonization mandates. Semi-structured interviews and ethnographic observation analyzed in **Atlas.ti** (Qualitative coding & visualization software similar to **nVivo**). Prior to publication in ERSS, this research was presented at the American Sociological Association (ASA) Annual Meeting in 2025 and the Eastern Sociological Society (ESS) Annual Conference in 2025.
-
-------------------------------------------------------------------------
-
 ## Housing Policy
 
 ### De-regulating The Up & Coming: Analyzing The Effects of Gentrification on Rent-Regulated Apartments in NYC
@@ -39,6 +16,27 @@ title: "Professional Portfolio"
 
 -   Evaluates whether New York City’s Speculation Watchlist (SWL) successfully identifies purchases of rent-regulated buildings that are followed by worse outcomes for tenants and whether the methodology can be improved using data the city already collects. Uses NYC HPD, NYS DHCR, and NYC DCP data queried via **SQL** (SoQL) from NYC Open Data to deploy a causal inference (DiD) approach to compare the official SWL definition to an alternative, neighborhood-relative (NTA-level) approach in **R** (fixest, iplot). Maps and visualizations were created in **QGIS** and **R** (ggplot2).
 
+------------------------------------------------------------------------
+
+## Climate Policy
+
+### Satisficing Devices: Co-benefits in practice to decarbonize New York City's residential buildings
+
+[Read the peer-reviewed article (DOI Link)](https://doi.org/10.1016/j.erss.2025.104512)
+
+-   Draws on 58 interviews and ethnographic work with NY based building sector stakeholders to understand conceptions of value around building decarbonization and decision making around compliance with local decarbonization mandates. Semi-structured interviews and ethnographic observation analyzed in **Atlas.ti** (Qualitative coding & visualization software similar to **nVivo**). Prior to publication in ERSS, this research was presented at the American Sociological Association (ASA) Annual Meeting in 2025 and the Eastern Sociological Society (ESS) Annual Conference in 2025.
+
+### Promoting Building Decarbonization In Practice
+
+[Read the policy memo (PDF)](assets/CoBMemo.pdf)
+
+-   3-page policy memo that draws on my published social science research (see above) on the co-benefits of building decarbonization to present policy implications for city and state policymakers.
+
+### Understanding The Relationship Between Homeownership and Support for Clean Energy Policies Using CES Survey Data
+
+[View the analysis (Quarto Site Link)](https://bmdknndy.github.io/HomeOwnershipClimatePolicySupport/brief/brief.html)
+
+-   Using nationally representative survey data from the 2024 Cooperative Election Study (CES) analyzed via **Python** and **SQL**, I show that homeownership is associated with lower support for clean energy policies even after accounting for political orientation and standard socioeconomic controls. This pattern suggests that climate attitudes may reflect not only ideology, but also individuals’ positions within housing and asset structures that shape exposure to regulation and perceived costs.
 ------------------------------------------------------------------------
 
 ## Business & Finance Data Analytics

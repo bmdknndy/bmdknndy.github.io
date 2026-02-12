@@ -37,7 +37,6 @@ title: "Professional Portfolio"
 [View the analysis (Quarto Site Link)](https://bmdknndy.github.io/HomeOwnershipClimatePolicySupport/brief/brief.html)
 
 -   Using nationally representative survey data from the 2024 Cooperative Election Study (CES) analyzed via **Python** and **SQL**, I show that homeownership is associated with lower support for clean energy policies even after accounting for political orientation and standard socioeconomic controls. This pattern suggests that climate attitudes may reflect not only ideology, but also individuals’ positions within housing and asset structures that shape exposure to regulation and perceived costs.
-------------------------------------------------------------------------
 
 ## Business & Finance Data Analytics
 
@@ -62,7 +61,6 @@ title: "Professional Portfolio"
 [View the map & searchable data set (Quarto Site Link)](https://bmdknndy.github.io/NYC-Reads-Map-Dataset-Creation/)
 
 ::::: columns
-
 ::: {.column width="50%"}
 ![](images/map.jpg)
 :::
@@ -70,5 +68,4 @@ title: "Professional Portfolio"
 ::: {.column width="50%"}
 Created school-level dataset and map via **Python**, **R**, and **QGIS** for use by educational staff and volunteer tutors at Goddard Riverside to determine the curriculum used by the students they serve based on 2024 NYC Department of Education updates to citywide reading curricula. Queried school information from NYC DOE using **Python** (nycschools) and extracted curricula from an image provided by DOE using OCR in R (tesseract). Visualized district-level map in **R** (ggplot2, sf) and **QGIS**.
 :::
-
 :::::

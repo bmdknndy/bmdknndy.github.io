@@ -4,7 +4,7 @@ title: "Professional Portfolio"
 
 ## Public Policy Analysis Projects
 
-### De-regulating The Up & Coming: Analyzing The Effects of Gentrification on Rent-Regulated Apartments in NYC
+### Housing Policy Brief: De-regulating The Up & Coming: Analyzing The Effects of Gentrification on Rent-Regulated Apartments in NYC
 
 [View the analysis (Quarto Site Link)](https://bmdknndy.github.io/DeRegulatingTheUpAndComing/)
 
@@ -12,7 +12,7 @@ title: "Professional Portfolio"
 
 -   Analyzes the effects of neighborhood change on change in count of rent-regulated units at the building level using **SQL**, **R,** and **Python,** finding a significant negative effect of gentrification that increases over time. To do this I first scraped property records from NYC DOF website using **Python** (BeautifulSoup4, Selenium, pypdf). I then queried NYC HPD, NYS DHCR, and NYC DCP data using **SQL** (SoQL) from NYC Open Data. I lastly applied time heterogeneous difference-in-differences method in **R** (fixest, MatchIt, iplot). I based my gentrification typology on the event driven framework of bunsen et al. (2023). Maps and visualizations were created in **QGIS** and **R** (ggplot2).
 
-### Re-Measuring Speculation, Evictions, and Building Conditions in NYC’s Rent-Regulated Housing
+### Housing Policy Brief: Re-Measuring Speculation, Evictions, and Building Conditions in NYC’s Rent-Regulated Housing
 
 [View the analysis (Quarto Site Link)](https://bmdknndy.github.io/HPD-SpeculationWatchList-Analysis/analysis/brief.html)
 
@@ -22,7 +22,7 @@ title: "Professional Portfolio"
 
 ------------------------------------------------------------------------
 
-### Satisficing Devices: Co-benefits in practice to decarbonize New York City's residential buildings
+### Climate Policy Journal Article & Policy Memo: Satisficing Devices: Co-benefits in practice to decarbonize New York City's residential buildings
 
 ![](images/sd.png)
 
@@ -34,7 +34,7 @@ title: "Professional Portfolio"
 
 -   3-page policy memo that draws on my published social science research (see above) on the co-benefits of building decarbonization to present policy implications for city and state policymakers.
 
-### Understanding The Relationship Between Homeownership and Support for Clean Energy Policies Using CES Survey Data
+### Climate Policy Brief: Understanding The Relationship Between Homeownership and Support for Clean Energy Policies Using CES Survey Data
 
 [View the analysis (Quarto Site Link)](https://bmdknndy.github.io/HomeOwnershipClimatePolicySupport/brief/brief.html)
 
@@ -61,7 +61,7 @@ title: "Professional Portfolio"
 ![](images/NOPV_repo.png)
 -   Built a **Python** **CLI** tool for scraping NYC Department of Finance "Notice of Property Value" (NOPV) PDFs and extracting the financial data inside them: assessed value, market value, tax class, cap rates, etc.Built to handle the DOF's CAPTCHA-gated document portal. Works by trying a fast direct HTTP request first, then falling back to a headed Playwright browser session with optional 2Captcha auto-solve if a challenge appears.
 
-### Data Engineering & OCR Tools: “NYC Reads” Program Dataset & Map Creation for Goddard Riverside Community Center Staff & Volunteers
+### Data Engineering & OCR Tool: “NYC Reads” Program Dataset & Map Creation for Goddard Riverside Community Center Staff & Volunteers
 
 [View the map & searchable data set (Quarto Site Link)](https://bmdknndy.github.io/NYC-Reads-Map-Dataset-Creation/)
 

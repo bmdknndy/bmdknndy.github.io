@@ -145,7 +145,7 @@ ul.task-list li input[type="checkbox"] {
 <p><a href="https://bmdknndy.github.io/DeRegulatingTheUpAndComing/">View the analysis (Quarto Site Link)</a></p>
 <p><img src="images/DRTUAC.png" class="img-fluid"></p>
 <ul>
-<li>Analyzes the effects of neighborhood change on change in count of rent-regulated units at the building level using <strong>SQL</strong>, <strong>R,</strong> and <strong>Python,</strong> finding a significant negative effect of gentrification that increases over time. To do this I first scraped property records from NYC DOF website using <strong>Python</strong> (BeautifulSoup4, Selenium, pypdf). I then queried NYC HPD, NYS DHCR, and NYC DCP data using <strong>SQL</strong> (SoQL) from NYC Open Data. I lastly applied time heterogeneous difference-in-differences method in <strong>R</strong> (fixest, MatchIt, iplot). I based my gentrification typology on the event driven framework of bunsen et al.&nbsp;(2023). Maps and visualizations were created in <strong>QGIS</strong> and <strong>R</strong> (ggplot2).</li>
+<li>Analyzes the effects of neighborhood change on change in count of rent-regulated units at the building level using <strong>SQL</strong>, <strong>R,</strong> and <strong>Python,</strong> finding a significant negative effect of gentrification that increases over time. To do this I first scraped property records from NYC DOF website using <strong>Python</strong> (beautifulsoup4, selenium, pypdf). I then queried NYC HPD, NYS DHCR, and NYC DCP data using <strong>SQL</strong> (SoQL) from NYC Open Data. I lastly applied time heterogeneous difference-in-differences method in <strong>R</strong> (fixest, MatchIt, iplot). I based my gentrification typology on the event driven framework of bunten et al.&nbsp;(2023). Maps and visualizations were created in <strong>QGIS</strong> and <strong>R</strong> (ggplot2).</li>
 </ul>
 </section>
 <section id="housing-policy-brief-re-measuring-speculation-evictions-and-building-conditions-in-nycs-rent-regulated-housing" class="level3">
@@ -193,8 +193,8 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="data-science-projects">Data Science Projects</h2>
 <section id="web-scraping-python-cli-tool-for-scraping-nyc-department-of-finance-notice-of-property-value-nopv-pdfs" class="level3">
 <h3 class="anchored" data-anchor-id="web-scraping-python-cli-tool-for-scraping-nyc-department-of-finance-notice-of-property-value-nopv-pdfs">Web Scraping: Python CLI tool for scraping NYC Department of Finance “Notice of Property Value” (NOPV) PDFs</h3>
-<p><a href="https://bmdknndy.github.io/NYC-Reads-Map-Dataset-Creation/">View the GitHub repo)</a></p>
-<p><img src="images/NOPV_repo.png" class="img-fluid"> - Built a <strong>Python</strong> <strong>CLI</strong> tool for scraping NYC Department of Finance “Notice of Property Value” (NOPV) PDFs and extracting the financial data inside them: assessed value, market value, tax class, cap rates, etc.Built to handle the DOF’s CAPTCHA-gated document portal. Works by trying a fast direct HTTP request first, then falling back to a headed Playwright browser session with optional 2Captcha auto-solve if a challenge appears.</p>
+<p><a href="https://bmdknndy.github.io/NYC-Reads-Map-Dataset-Creation/">View the GitHub repo (GitHub Link)</a></p>
+<p><img src="images/NOPV_repo.png" class="img-fluid"> - Built a <strong>Python</strong> (playwright, pypdf) <strong>CLI</strong> tool for scraping NYC Department of Finance “Notice of Property Value” (NOPV) PDFs and extracting the financial data inside them: assessed value, market value, tax class, cap rates, etc. Built to handle the DOF’s CAPTCHA-gated document portal. Works by trying a fast direct HTTP request first, then falling back to a headed Playwright browser session with optional 2Captcha auto-solve if a challenge appears.</p>
 </section>
 <section id="data-engineering-ocr-tool-nyc-reads-program-dataset-map-creation-for-goddard-riverside-community-center-staff-volunteers" class="level3">
 <h3 class="anchored" data-anchor-id="data-engineering-ocr-tool-nyc-reads-program-dataset-map-creation-for-goddard-riverside-community-center-staff-volunteers">Data Engineering &amp; OCR Tool: “NYC Reads” Program Dataset &amp; Map Creation for Goddard Riverside Community Center Staff &amp; Volunteers</h3>
@@ -204,7 +204,7 @@ ul.task-list li input[type="checkbox"] {
 <p><img src="images/map.jpg" class="img-fluid"></p>
 </div><div class="column" style="width:50%;">
 <ul>
-<li>Created school-level dataset and map via <strong>Python</strong>, <strong>R</strong>, and <strong>QGIS</strong> for use by educational staff and volunteer tutors at Goddard Riverside to determine the curriculum used by the students they serve based on 2024 NYC Department of Education updates to citywide reading curricula. Queried school information from NYC DOE using <strong>Python</strong> (nycschools) and extracted curricula from an image provided by DOE using OCR in R (tesseract). Visualized district-level map in <strong>R</strong> (ggplot2, sf) and <strong>QGIS</strong>.</li>
+<li>Created school-level dataset and map via <strong>Python</strong>, <strong>R</strong>, and <strong>QGIS</strong> for use by educational staff and volunteer tutors at Goddard Riverside to determine the curriculum used by the students they serve based on 2024 NYC Department of Education updates to citywide reading curricula. Queried school information from NYC DOE using <strong>Python</strong> (nycschools) and extracted curricula from an image provided by DOE using OCR in <strong>R</strong> (tesseract). Visualized district-level map in <strong>R</strong> (ggplot2, sf) and <strong>QGIS</strong>.</li>
 </ul>
 </div>
 </div>

@@ -10,7 +10,7 @@ title: "Professional Portfolio"
 
 ![](images/DRTUAC.png)
 
--   Analyzes the effects of neighborhood change on change in count of rent-regulated units at the building level using **SQL**, **R,** and **Python,** finding a significant negative effect of gentrification that increases over time. To do this I first scraped property records from NYC DOF website using **Python** (BeautifulSoup4, Selenium, pypdf). I then queried NYC HPD, NYS DHCR, and NYC DCP data using **SQL** (SoQL) from NYC Open Data. I lastly applied time heterogeneous difference-in-differences method in **R** (fixest, MatchIt, iplot). I based my gentrification typology on the event driven framework of bunsen et al. (2023). Maps and visualizations were created in **QGIS** and **R** (ggplot2).
+-   Analyzes the effects of neighborhood change on change in count of rent-regulated units at the building level using **SQL**, **R,** and **Python,** finding a significant negative effect of gentrification that increases over time. To do this I first scraped property records from NYC DOF website using **Python** (beautifulsoup4, selenium, pypdf). I then queried NYC HPD, NYS DHCR, and NYC DCP data using **SQL** (SoQL) from NYC Open Data. I lastly applied time heterogeneous difference-in-differences method in **R** (fixest, MatchIt, iplot). I based my gentrification typology on the event driven framework of bunten et al. (2023). Maps and visualizations were created in **QGIS** and **R** (ggplot2).
 
 ### Housing Policy Brief: Re-Measuring Speculation, Evictions, and Building Conditions in NYC’s Rent-Regulated Housing
 
@@ -56,10 +56,10 @@ title: "Professional Portfolio"
 
 ### Web Scraping: Python CLI tool for scraping NYC Department of Finance "Notice of Property Value" (NOPV) PDFs
 
-[View the GitHub repo)](https://bmdknndy.github.io/NYC-Reads-Map-Dataset-Creation/)
+[View the GitHub repo (GitHub Link)](https://bmdknndy.github.io/NYC-Reads-Map-Dataset-Creation/)
 
 ![](images/NOPV_repo.png)
--   Built a **Python** **CLI** tool for scraping NYC Department of Finance "Notice of Property Value" (NOPV) PDFs and extracting the financial data inside them: assessed value, market value, tax class, cap rates, etc.Built to handle the DOF's CAPTCHA-gated document portal. Works by trying a fast direct HTTP request first, then falling back to a headed Playwright browser session with optional 2Captcha auto-solve if a challenge appears.
+-   Built a **Python** (playwright, pypdf) **CLI** tool for scraping NYC Department of Finance "Notice of Property Value" (NOPV) PDFs and extracting the financial data inside them: assessed value, market value, tax class, cap rates, etc. Built to handle the DOF's CAPTCHA-gated document portal. Works by trying a fast direct HTTP request first, then falling back to a headed Playwright browser session with optional 2Captcha auto-solve if a challenge appears.
 
 ### Data Engineering & OCR Tool: “NYC Reads” Program Dataset & Map Creation for Goddard Riverside Community Center Staff & Volunteers
 
@@ -71,6 +71,6 @@ title: "Professional Portfolio"
 :::
 
 ::: {.column width="50%"}
--   Created school-level dataset and map via **Python**, **R**, and **QGIS** for use by educational staff and volunteer tutors at Goddard Riverside to determine the curriculum used by the students they serve based on 2024 NYC Department of Education updates to citywide reading curricula. Queried school information from NYC DOE using **Python** (nycschools) and extracted curricula from an image provided by DOE using OCR in R (tesseract). Visualized district-level map in **R** (ggplot2, sf) and **QGIS**.
+-   Created school-level dataset and map via **Python**, **R**, and **QGIS** for use by educational staff and volunteer tutors at Goddard Riverside to determine the curriculum used by the students they serve based on 2024 NYC Department of Education updates to citywide reading curricula. Queried school information from NYC DOE using **Python** (nycschools) and extracted curricula from an image provided by DOE using OCR in **R** (tesseract). Visualized district-level map in **R** (ggplot2, sf) and **QGIS**.
 :::
 :::::

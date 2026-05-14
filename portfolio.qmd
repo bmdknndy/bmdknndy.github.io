@@ -50,7 +50,7 @@ title: "Professional Portfolio"
 
 ![](images/ffdb.png)
 
--   Created KPI dashboard using R and Tableau to track sales conversions, job profitability, sales by geographic area and product type, lead times, customer acquisition costs, and cash flow. Tailored to management needs and preferences to concisely communicate necessary info on business health.
+-   Created KPI dashboard using **R** and **Tableau** to track sales conversions, job profitability, sales by geographic area and product type, lead times, customer acquisition costs, and cash flow. Tailored to management needs and preferences to concisely communicate necessary info on business health.
 
 ## Data Science Projects
 
@@ -59,6 +59,7 @@ title: "Professional Portfolio"
 [View the GitHub repo)](https://bmdknndy.github.io/NYC-Reads-Map-Dataset-Creation/)
 
 ![](images/NOPV_repo.png)
+-   Built a **Python** **CLI** tool for scraping NYC Department of Finance "Notice of Property Value" (NOPV) PDFs and extracting the financial data inside them: assessed value, market value, tax class, cap rates, etc.Built to handle the DOF's CAPTCHA-gated document portal. Works by trying a fast direct HTTP request first, then falling back to a headed Playwright browser session with optional 2Captcha auto-solve if a challenge appears.
 
 ### Data Engineering & OCR Tools: “NYC Reads” Program Dataset & Map Creation for Goddard Riverside Community Center Staff & Volunteers
 
@@ -70,6 +71,6 @@ title: "Professional Portfolio"
 :::
 
 ::: {.column width="50%"}
-Created school-level dataset and map via **Python**, **R**, and **QGIS** for use by educational staff and volunteer tutors at Goddard Riverside to determine the curriculum used by the students they serve based on 2024 NYC Department of Education updates to citywide reading curricula. Queried school information from NYC DOE using **Python** (nycschools) and extracted curricula from an image provided by DOE using OCR in R (tesseract). Visualized district-level map in **R** (ggplot2, sf) and **QGIS**.
+-   Created school-level dataset and map via **Python**, **R**, and **QGIS** for use by educational staff and volunteer tutors at Goddard Riverside to determine the curriculum used by the students they serve based on 2024 NYC Department of Education updates to citywide reading curricula. Queried school information from NYC DOE using **Python** (nycschools) and extracted curricula from an image provided by DOE using OCR in R (tesseract). Visualized district-level map in **R** (ggplot2, sf) and **QGIS**.
 :::
 :::::

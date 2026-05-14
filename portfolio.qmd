@@ -42,7 +42,7 @@ title: "Professional Portfolio"
 
 -   Using nationally representative survey data from the 2024 Cooperative Election Study (CES) analyzed via **Python** and **SQL**, I show that homeownership is associated with lower support for clean energy policies even after accounting for political orientation and standard socioeconomic controls. This pattern suggests that climate attitudes may reflect not only ideology, but also individuals’ positions within housing and asset structures that shape exposure to regulation and perceived costs.
 
-## Business Data Analytics
+## Data Analysis Projects
 
 ### KPI Dashboard
 

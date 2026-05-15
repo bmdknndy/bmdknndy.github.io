@@ -59,6 +59,7 @@ title: "Professional Portfolio"
 [View the GitHub repo (GitHub Link)](https://bmdknndy.github.io/NYC-Reads-Map-Dataset-Creation/)
 
 ![](images/NOPV_repo.png)
+
 -   Built a **Python** (playwright, pypdf) **CLI** tool for scraping NYC Department of Finance "Notice of Property Value" (NOPV) PDFs and extracting the financial data inside them: assessed value, market value, tax class, cap rates, etc. Built to handle the DOF's CAPTCHA-gated document portal. Works by trying a fast direct HTTP request first, then falling back to a headed Playwright browser session with optional 2Captcha auto-solve if a challenge appears.
 
 ### Data Engineering & OCR Tool: “NYC Reads” Program Dataset & Map Creation for Goddard Riverside Community Center Staff & Volunteers

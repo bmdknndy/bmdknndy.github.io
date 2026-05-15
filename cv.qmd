@@ -2,6 +2,6 @@
 title: "Curriculum Vitae"
 ---
 
-[Download CV as PDF](assets/CVBradyKennedy.pdf)
+[Download CV as PDF](assets/CV.pdf)
 
-{{< pdf assets/CVBradyKennedy.pdf width=100% height=800 >}}
+{{< pdf assets/CV.pdf width=100% height=800 >}}

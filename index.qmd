@@ -5,7 +5,7 @@ title: "About"
 ::: hero
 # Brady Kennedy
 
-#### Social Data Science • Housing & Climate Policy • Urban Theory
+#### Social Data Analyst • Housing & Climate Policy • Urban Theory
 :::
 
 ```{=html}
@@ -13,7 +13,7 @@ title: "About"
   <img src="images/me.jpg" style="width:40%; border-radius:10px; height:auto;" />
   <div>
     <p>
-      Hi! My name is Brady Kennedy, and I am a social data scientist and researcher with a focus on urban political economy, especially around housing and climate.
+      Hi! My name is Brady Kennedy, and I am a social data analyst and researcher with a focus on urban political economy, especially around housing and climate.
     </p>
     <p>
       <a href="portfolio.html">View my data science & policy research portfolio</a><br/>

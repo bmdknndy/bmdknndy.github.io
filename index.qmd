@@ -16,7 +16,7 @@ title: "About"
       Hi! My name is Brady Kennedy, and I am a social data analyst and researcher with a focus on urban political economy, especially around housing and climate.
     </p>
     <p>
-      <a href="portfolio.html">View my data science & policy research portfolio</a><br/>
+      <a href="portfolio.html">View my data analysis & research portfolio</a><br/>
       <a href="cv.html">View my CV</a><br/>
       <a href="https://www.linkedin.com/in/brady-kennedy-/">View my LinkedIn profile</a><br/>
       <a href="https://github.com/bmdknndy">View my GitHub repos</a>
